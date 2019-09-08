@@ -6,7 +6,7 @@
         <div class="row">
           <div class="col-sm-8">
             <h1>Awareness Events</h1>
-            <p class="lead">MCF mental health awareness events</p>
+            <p class="lead">Spreading relevant information and building a stigma free society</p>
           </div>
         </div>
         <!--end of row-->
@@ -23,10 +23,12 @@
           </div>
           <div class="col-sm-6 col-md-6">
             <div>
-              <h3>Description</h3>
-              <p
-                class="lead"
-              >Launching an attractive and scalable website quickly and affordably is important for modern startups — Stack offers massive value without looking 'bargain-bin'.</p>
+              <h3 class="text-uppercase">About Our Events</h3>
+              <p class="lead">
+                We organize mental health national events by partnering with individuals, private organizations and public bodies. 
+                We particularly focus on giving hope and support to the vulnerable, while creating an avenue to discuss 
+                critical issues that affect the mental health of Nigerians.
+              </p>
             </div>
           </div>
         </div>

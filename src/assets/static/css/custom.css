@@ -136,6 +136,9 @@ h6,
 .mb-0{
     margin-bottom: 0 !important
 }
+.mt-5 {
+  margin-top: 5px !important 
+}
 .mt-10 {
     margin-top: 10px !important
 }
@@ -260,7 +263,9 @@ a:hover, a:visited, a:focus {
   border: 1px solid #e5e7f1;
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
 }
-
+.card-bg{
+  background-color: #e6f0fd !important
+}
 
 .flickity-prev-next-button.previous::before, .flickity-prev-next-button.next::before {
   font-size: 32px;

@@ -5761,10 +5761,13 @@ a.block:hover > .feature {
   margin-bottom: 0;
 }
 @media all and (max-width: 990px) {
-  .feature-2 .feature__body,
+  .feature-2 .feature__body{
+    width: 75%;
+    float: left;
+  }
   .feature-2 i {
-    width: 100%;
-    float: none;
+    width: 25%;
+    float: left;
   }
   .feature-2 p:first-of-type {
     margin-top: 0.92857143em;

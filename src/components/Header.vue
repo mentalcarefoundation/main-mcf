@@ -85,6 +85,12 @@
                                                                         Be A Voice
                                                                     </a>
                                                                 </router-link>
+                                                                <li>
+                                                                    <a href="https://screening.mentalhealthamerica.net/screening-tools">
+                                                                        Get Screened
+                                                                    </a>
+                                                                </li>
+                                                                    
                                                                 </ul>
                                                         </div>
                                                     </div>

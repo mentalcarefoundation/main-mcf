@@ -18,7 +18,7 @@
           <div class="col-sm-10 col-xs-10 col-sm-offset-1 col-xs-offset-1">
             <article>
               <div class="article__body">
-                <!-- <strong>Last updated:</strong> September 2019 -->
+                <strong>Last updated:</strong> {{date}}
                 <h2 class="text-center">Welcome to FITILA!</h2>
                 Thank you for using our products and services (“Services”). The Services are provided by Mental Care Foundation (“MCF”),
                 located at 14, Gbajumo Crescent, Surulere, Lagos. By using our Services, you agree to these terms. Please read them
@@ -40,7 +40,13 @@
                 <br />In connection with your use of our Services, we may send you announcements, administrative messages, and other
                 information. You may opt out of some of these communications. Some of our Services are available on mobile devices. Do not
                 use our Services in a way that distracts you and prevents or diminishes your ability to obey traffic and safety laws.
-                <h3 class="mt-10 mb-10 text-uppercase">Listening Services</h3>You acknowledge and agree that Listeners are neither employees nor agents nor representatives of FITILA, and FITILA
+                <h3 class="mt-10 mb-10 text-uppercase">Your FITILA Account</h3>
+                You need a FITILA account in order to use our Services. You may create your own FITILA member and listener account. You
+                may hold only one member and one listener account. To protect your FITILA account, keep your password confidential. You
+                are responsible for any activity that happens on or through your FITILA account. If you discover any unauthorized use of your
+                password or FITILA account, contact <a href="mailto:support@mentalcare.life">support@mentalcare.life.</a>
+                <h3 class="mt-10 mb-10 text-uppercase">Listening Services</h3>
+                You acknowledge and agree that Listeners are neither employees nor agents nor representatives of FITILA, and FITILA
                 assumes no responsibility for any act or omission of any such Listener.
                 <br />
                 <br />You understand and agree that, although a mental or medical health professional, physician, attorney or other professional
@@ -54,17 +60,26 @@
                 <br />
                 <br />
                 <strong>
-                  DOES NOT WARRANT THE VALIDITY, ACCURACY, OR AVAILABILITY OF ANY CONTENT OR ADVICE
+                  FITILA DOES NOT WARRANT THE VALIDITY, ACCURACY, OR AVAILABILITY OF ANY CONTENT OR ADVICE
                   PROVIDED BY LISTENERS AND FITILA WILL NOT BE LIABLE FOR ANY DAMAGES SUSTAINED BY MEMBER DUE TO
                   RELIANCE ON ANY SUCH INFORMATION OR ADVICE.
                 </strong>
-                <h3 class="mt-10 mb-10 text-uppercase">Our Warranties and Disclaimers</h3>
+                <br /><br />
                 <strong>
-                  YOU ARE THINKING ABOUT SUICIDE, IF YOU FEEL THAT YOU MAY BE A DANGER TO YOURSELF OR TO OTHERS,
+                  IF YOU ARE THINKING ABOUT SUICIDE, IF YOU FEEL THAT YOU MAY BE A DANGER TO YOURSELF OR TO OTHERS,
                   OR IF YOU OTHERWISE HAVE ANY MEDICAL EMERGENCY, PLEASE IMMEDIATELY CALL 911 (OR THE RELEVANT
                   EMERGENCY NUMBER IN YOUR COUNTRY) AND NOTIFY THE POLICE OR EMERGENCY MEDICAL SERVICES.
                 </strong>
-                <br />
+                <br /><br />
+                FITILA makes no representation or warranty whatsoever as to (a) the accuracy or availability of the Listening Platform or the Sites, (b) the willingness or ability of the
+                Listener or to listen, (c) the willingness or ability of any Listener or to give advice, (d) whether the Member shall find a Listener or listening useful or satisfactory, (e)
+                whether the Member shall find a Listener or ’s advice relevant, useful, accurate or satisfactory, (f) whether the listening of the Listener will be helpful, (g) whether the
+                advice of the Listener will be responsive or relevant to the Member’s question (h) whether the Listener’s advice will otherwise be suitable to the Member’s needs.
+                <br /><br />
+                FITILA does not verify the skills, degrees, qualifications, credentials or background of any Listeners. While we may try to do so from time to time, in our sole discretion,
+                you acknowledge that we do not represent to verify, and do not guarantee the verification of, the skills, degrees, qualifications, licensure, certification, credentials,
+                competence.
+                <h3 class="mt-10 mb-10 text-uppercase">Our Warranties and Disclaimers</h3>
                 <br />We provide our Services using a reasonable level of care and skill and we hope that you enjoy using them. There are certain
                 things that we do not promise about our Services.
                 <br />
@@ -76,19 +91,26 @@
                   THEIR RELIABILITY, AVAILABILITY, OR ABILITY TO MEET YOUR NEEDS. WE PROVIDE OUR SERVICES “AS IS.” WE
                   EXCLUDE ALL WARRANTIES.
                 </strong>
-                <h3 class="mt-10 mb-10 text-uppercase">Your FITILA Account</h3>You need a FITILA account in order to use our Services. You may create your own FITILA member and listener account. You
-                may hold only one member and one listener account. To protect your FITILA account, keep your password confidential. You
-                are responsible for any activity that happens on or through your FITILA account. If you discover any unauthorized use of your
-                password or FITILA account, contact support@mentalcare.life.
                 <br />
-                <br />Some of our Services allow you to upload, submit, store, send or receive content. FITILA shall retain all
-                ownership rights in and to all content displayed on the Sites, including copies of data transferred or received
-                by Member through the Sites. This section shall survive expiration or termination of this Agreement.
                 <br />
-                <br />You can find out more about how FITILA uses and stores your content in the Privacy Policy. If you submit
-                feedback or suggestions about our Services, we may use your feedback or suggestions without obligation to
-                you.
-                <h3 class="mt-10 mb-10 text-uppercase">About Software in Our Services</h3>Our Services may include downloadable software, which may update automatically on your device once a
+                <strong>
+                  TO THE EXTENT PERMITTED BY LAW, THE TOTAL LIABILITY OF FITILA AND ITS AFFILIATES, OFFICERS, DIRECTORS, SHAREHOLDERS,
+                  EMPLOYEES, SUB-CONTRACTORS, REPRESENTATIVES, AND AGENTS FOR ANY CLAIMS UNDER THESE TERMS, INCLUDING FOR ANY
+                  IMPLIED WARRANTIES, IS LIMITED TO THE AMOUNT YOU PAID US TO USE THE SERVICES (OR, IF WE SO CHOOSE, TO SUPPLYING YOU
+                  THE SERVICES AGAIN).
+                </strong>
+                <br />
+                <br />
+                <strong>
+                  IN ALL CASES, FITILA AND ITS AFFILIATES, OFFICERS, DIRECTORS, SHAREHOLDERS, EMPLOYEES, SUB-CONTRACTORS,
+                  REPRESENTATIVES, AND AGENTS, WILL NOT BE LIABLE FOR ANY LOSS OR DAMAGE THAT IS NOT REASONABLY FORSEEABLE. Business
+                  Uses of Our Services If you are using our Services on behalf of a business or organization, that business or organization accepts these terms. It will
+                  hold harmless and indemnify FITILA and its affiliates, officers, directors, shareholders, employees, sub-contractors, representatives, and agents from
+                  any claim, suit or action arising from or related to the use of the Services or violation of these terms, including any liability or expense arising from
+                  claims, losses, damages, suits, judgements, litigation costs, and attorneys’ fees.
+                </strong>
+                <h3 class="mt-10 mb-10 text-uppercase">About Software in Our Services</h3>
+                Our Services may include downloadable software, which may update automatically on your device once a
                 new version or feature is available. Some Services may let you adjust your automatic update settings.
                 <br />
                 <br />You may not copy, modify, distribute, sell, or lease any part of our Services or included software, nor may
@@ -102,7 +124,17 @@
                 <br />
                 <br />We believe that you own your data and preserving your access to your data is important. Upon request, we
                 will delete your account, your forum posts, or both.
-                <h3 class="mt-10 mb-10 text-uppercase">About These Terms</h3>We may modify these terms or any additional terms that apply to a Service to, for example, reflect changes
+                <br /><br />
+                Some of our Services allow you to upload, submit, store, send or receive content. FITILA shall retain all
+                ownership rights in and to all content displayed on the Sites, including copies of data transferred or received
+                by Member through the Sites. This section shall survive expiration or termination of this Agreement.
+                <br />
+                <br />
+                You can find out more about how FITILA uses and stores your content in the Privacy Policy. If you submit
+                feedback or suggestions about our Services, we may use your feedback or suggestions without obligation to
+                you.
+                <h3 class="mt-10 mb-10 text-uppercase">About These Terms</h3>
+                We may modify these terms or any additional terms that apply to a Service to, for example, reflect changes
                 to the law or changes to our Services. You should look at the terms regularly. We’ll post notice of
                 modifications to these terms on this page. We’ll post notice of modified additional terms in the applicable
                 Service. Changes addressing new functions for a Service or changes made for legal reasons will be
@@ -131,3 +163,18 @@
     </section>
   </div>
 </template>
+
+<script>
+export default {
+    data() {
+        return{
+            date: ""
+        }
+    },
+    mounted() {
+        let date = new Date();
+        var options = {year: 'numeric', month: 'long' };
+        this.date = date.toLocaleDateString('en', options)
+    }
+}
+</script>
