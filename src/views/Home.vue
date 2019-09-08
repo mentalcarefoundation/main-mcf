@@ -25,7 +25,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-4">
-            <img alt="Image" class="border--round" src="../assets/static/img/agency-5.jpg" />
+            <img alt="Image" class="border--round" src="../assets/static/img/education-2.jpg" />
           </div>
           <div class="col-md-7 col-sm-8">
             <h2>ABOUT US</h2>
@@ -156,7 +156,7 @@
             <div class="cta">
               <h2>Help Us Do More</h2>
               <a class="btn btn--primary type--uppercase" href="#">
-                <span class="btn__text">Donate</span>
+                <span class="btn__text">Learn How</span>
               </a>
             </div>
           </div>
