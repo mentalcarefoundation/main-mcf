@@ -1,17 +1,10 @@
 <template>
   <div class="main-container">
-    <section class="cover imagebg height-60 text-left" data-overlay="7">
+    <section class="cover imagebg height-60 text-left" data-overlay="3">
       <div class="background-image-holder"></div>
-      <div class="container pos-vertical-center">
-        <div class="row">
-          <div class="col-sm-8">
-            <h1>About Us</h1>
-            <p class="lead">A moving train of love, support and hope.</p>
-          </div>
-        </div>
-        <!--end of row-->
-      </div>
-      <!--end of container-->
+    </section>
+    <section class="space--xs">
+      <h1 class="type--uppercase text-center">About Us</h1>
     </section>
 
     <section id="about" class="switchable feature-large feature-large-13 space--sm">
@@ -22,7 +15,6 @@
           </div>
           <div class="col-md-offset-1 col-sm-6 col-md-6">
             <div>
-              <h2>WHO WE ARE</h2>
               <p class="lead">
                 Founded in 2019, Mental Care Foundation (MCF) is one of Nigeria’s leading mental
                 health organisations dedicated to building better lives for millions of Nigerians
@@ -76,28 +68,38 @@
                 <strong class="custom-color">– Akinjobi Balikis</strong>, Co-founder and Executive
                 Director, MCF
               </span>
-              <p class="mb-10 mt-10">
-                <a class="fw-600" href="https://www.who.int/mental_health/prevention/suicide/suicideprevent/en/">
-                  *Close to 800 000 people die due to suicide every year, which is one person every 40 seconds.
-                </a>
-                <br>
-                <a class="fw-600" href="https://www.who.int/mental_health/prevention/suicide/suicideprevent/en/">
-                  *There are indications that for each adult who died by suicide there may have been more than 20 others attempting suicide.
-                </a>
-                <br>
-                <a class="fw-600" href="http://saharareporters.com/2018/11/13/30-nigerians-suffer-mental-illness-%E2%80%93-fg">
-                  *About 30% of Nigerians suffer mental illness.
-                </a>
-              </p>
+              <ul  class="ml-ul mb-10 mt-10 lead">
+                <li>
+                  Close to 800 000 people die due to suicide every year, which is one person every 40 
+                  <a class="fw-600" href="https://www.who.int/mental_health/prevention/suicide/suicideprevent/en/">
+                    seconds.
+                  </a>
+                </li>
+                <li>
+                  There are indications that for each adult who died by suicide there may have been more than 20 others attempting
+                  <a class="fw-600" href="https://www.who.int/mental_health/prevention/suicide/suicideprevent/en/">
+                    suicide.
+                  </a>
+                </li>
+                <li>
+                  About 30% of Nigerians suffer mental
+                  <a class="fw-600" href="http://saharareporters.com/2018/11/13/30-nigerians-suffer-mental-illness-%E2%80%93-fg">
+                    illness.
+                  </a>
+                </li>
+              </ul>
               <p class="lead">
                 Psychiatrists have linked the rising prevalence of mental health disorders in Nigeria particularly to stigma and lack of public
                 awareness. In Nigeria, people who attempt suicide are being arrested rather than being treated.<br> Many Nigerians still believe that mental illnesses like depression and schizophrenia are demonic and cant happen to “holy
                 people”. <br>People can’t talk freely about their mental health because of the fear of being stigmatized. Even teens are expected to shake it
                 off and what we see is more and more people take their lives.
               </p>
-              <p class="lead text-uppercase custom-color fw-600">
+              <p class="lead text-uppercase custom-color ">
+                <router-link to="/fitila" tag="a" class="fw-600">
                 We need to put an end to this!
+              </router-link>
               </p>
+              
             </div>
           </div>
         </div>

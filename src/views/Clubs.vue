@@ -1,18 +1,10 @@
 <template>
   <div class="main-container">
-    <section class="cover imagebg height-60 text-left" data-overlay="7">
-      <div class="background-image-holder">
-      </div>
-      <div class="container pos-vertical-center">
-        <div class="row">
-          <div class="col-sm-8">
-            <h1>Campus Clubs</h1>
-            <p class="lead">Join or start a MCF campus club</p>
-          </div>
-        </div>
-        <!--end of row-->
-      </div>
-      <!--end of container-->
+    <section class="cover imagebg height-60 text-left" data-overlay="3">
+      <div class="background-image-holder"></div>
+    </section>
+    <section class="space--xs">
+      <h1 class="type--uppercase text-center">Campus Clubs</h1>
     </section>
     <section class="switchable feature-large">
       <div class="container">

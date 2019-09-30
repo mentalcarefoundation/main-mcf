@@ -1,26 +1,5 @@
 <template>
     <div>
-        <section class="pd-0 bar-3 bar--sm bg--secondary">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="bar__module">
-                                    <span class="type--fade">{{date}}</span>
-                                </div>
-                            </div>
-                            <div class="col-md-6 text-right text-left-xs text-left-sm">
-                                <div class="bar__module">
-                                    <ul class="menu-horizontal">
-                                        <li>Email: <a href="mailto:hello@mentalcare.life">hello@mentalcare.life</a></li>
-                                        <li>Phone: +2347016635363</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!--end of row-->
-                    </div>
-                    <!--end of container-->
-        </section>
         <div class="nav-container">
             <div>
                 <div class="bar bar--sm visible-xs">

@@ -1,17 +1,10 @@
 <template>
   <div class="main-container">
-    <section class="cover imagebg height-60 text-left" data-overlay="7">
+    <section class="cover imagebg height-60 text-left" data-overlay="3">
       <div class="background-image-holder"></div>
-      <div class="container pos-vertical-center">
-        <div class="row">
-          <div class="col-sm-8">
-            <h1>Awareness Events</h1>
-            <p class="lead">Spreading relevant information and building a stigma free society</p>
-          </div>
-        </div>
-        <!--end of row-->
-      </div>
-      <!--end of container-->
+    </section>
+    <section class="bg--secondary space--xs">
+      <h1 class="type--uppercase text-center">Awareness Events</h1>
     </section>
     <section
       class="bg--secondary switchable feature-large feature-large-13 switchable--switch space--sm"
@@ -23,11 +16,10 @@
           </div>
           <div class="col-sm-6 col-md-6">
             <div>
-              <h3 class="text-uppercase">About Our Events</h3>
               <p class="lead">
                 We organize mental health national events by partnering with individuals, private organizations and public bodies. 
                 We particularly focus on giving hope and support to the vulnerable, while creating an avenue to discuss 
-                critical issues that affect the mental health of Nigerians.
+                critical issues that affect the mental health of Nigerians. We are committed to spreading relevant information and building a stigma free society.
               </p>
             </div>
           </div>

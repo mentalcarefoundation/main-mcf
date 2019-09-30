@@ -1,17 +1,10 @@
 <template>
   <div class="main-container">
-    <section class="cover imagebg height-60 text-left" data-overlay="7">
+    <section class="cover imagebg height-60 text-left" data-overlay="3">
       <div class="background-image-holder"></div>
-      <div class="container pos-vertical-center">
-        <div class="row">
-          <div class="col-sm-8">
-            <h1>Introducing FITILA</h1>
-            <p class="lead">Nigeria’s premier on-demand emotional support platform.</p>
-          </div>
-        </div>
-        <!--end of row-->
-      </div>
-      <!--end of container-->
+    </section>
+    <section class="space--xs">
+      <h1 class="type--uppercase text-center">Introducing FITILA</h1>
     </section>
     <section class="switchable feature-large">
       <div class="container">
@@ -19,11 +12,12 @@
           <div class="col-sm-5">
             <div>
               <h3 class="type--uppercase">A LISTENING EAR TO YOUR DEEPEST TROUBLES</h3>
-              <p class="lead">
+              <p>
+                Fitila is Nigeria’s premier on-demand emotional support platform. 
                 Fitila connects you with anonymous listeners who truly understand and are ready to
                 give free emotional support until you are back on your feet. <br><br>
-                <em class="fw-600">Do you need someone to talk to in a language that gives you the freedom to
-                express yourself?</em>
+                Do you need someone to talk to in a language that gives you the freedom to
+                express yourself?
               </p>
               <ul class="ml-ul">
                 <li>FITILA trained volunteer listeners are available 24 /7 to give emotional support over

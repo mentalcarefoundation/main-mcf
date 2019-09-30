@@ -1,17 +1,10 @@
 <template>
   <div class="main-container">
-    <section class="cover imagebg height-60 text-left" data-overlay="7">
+    <section class="cover imagebg height-60 text-left" data-overlay="3">
       <div class="background-image-holder"></div>
-      <div class="container pos-vertical-center">
-        <div class="row">
-          <div class="col-sm-8">
-            <h1>Give Mental Health A Voice</h1>
-            <p class="lead">Together, we can stop the stigma.</p>
-          </div>
-        </div>
-        <!--end of row-->
-      </div>
-      <!--end of container-->
+    </section>
+    <section class="space--xs">
+      <h1 class="type--uppercase text-center">Give Mental Health A Voice</h1>
     </section>
 
     <section class="switchable feature-large feature-large-13">
@@ -26,7 +19,7 @@
           </div>
           <div class="col-sm-6 col-md-5">
             <div>
-              <h2 class="text--uppercase">Lend Your Voice</h2>
+              <h3 class="text--capitalize">Lend Your Voice</h3>
               <p
                 class="lead"
               >Dummy text:Launching an attractive and scalable website quickly and affordably is important for modern startups — Stack offers massive value without looking 'bargain-bin'.</p>

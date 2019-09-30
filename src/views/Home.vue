@@ -73,7 +73,7 @@
             <div class="switchable__text">
               <h2>OUR SOLUTIONS</h2>
               <p class="lead mb-0">
-                <span class="text-uppercase">We are intrepidly putting a stop to the stigma.</span><br>
+                <span class="type--capitalize">We are intrepidly putting a Stop to The Stigma.</span><br>
                 At Mental Care Foundation, we hold the opinion that everyone has a role to play to change the narrative of
                 mental health in Nigeria. Together we can help each other emotionally, we can stop the stigma and be the
                 most powerful instrument of change.
