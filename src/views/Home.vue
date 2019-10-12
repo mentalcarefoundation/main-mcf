@@ -104,13 +104,13 @@
     <section class="space--xs">
       <div class="container">
         <h2 class="text-center type--uppercase">Meet The Team</h2>
-        <circle-spin class="m-0" v-if="loading"></circle-spin>
+        <circle-spin class="m-0" v-if="loadAdmins"></circle-spin>
         <div class="row" v-else>
           <div class="col-xs-6 col-sm-4 col-lg-3" v-for="datum in team" :key="datum.id">
             <div class="text-center feature">
               <img alt="Image" :src="datum.image" class="avatar"/>
-              <h5>{{datum.name}}</h5>
-              <span>{{datum.position}}</span>
+              <h5>{{datum.firstname}} {{datum.lastname}}</h5>
+              <!-- <span>{{datum.position}}</span> -->
             </div>
           </div>
         </div>
@@ -121,7 +121,7 @@
       <div class="mt-20 container">
         <div class="row">
           <div class="col-sm-12">
-            <circle-spin class="m-0" v-if="loading"></circle-spin>
+            <circle-spin class="m-0" v-if="loadVolunteers"></circle-spin>
             <flickity ref="flickity" :options="flickityOptions" v-else>
               <div class="carousel-cell" v-for="volunteer in volunteers" :key="volunteer.id">
                 <div class="row">
@@ -130,14 +130,14 @@
                       <img
                         class="testimonial__image avatar"
                         alt="Image"
-                        :src="volunteer.image"
+                        :src="volunteer.image_url"
                       />
                     </div>
                     <div class="col-md-7 col-md-offset-1 col-sm-8 col-xs-8">
                       <span class="h4">
                         "{{volunteer.bio}}"
                       </span>
-                      <h5>{{volunteer.email}}</h5>
+                      <h5>{{volunteer.name}}</h5>
                       <span>{{volunteer.position}}</span>
                     </div>
                   </div>
@@ -177,7 +177,8 @@ export default {
         prevNextButtons: true,
         pageDots: true
       },
-      loading: true,
+      loadAdmins: true,
+      loadVolunteers: true,
       team: [],
       volunteers: []
     };
@@ -186,20 +187,20 @@ export default {
       axios.get("/admin/list?type=volunteer")
       .then(res => {
         this.volunteers = res.data.data
-        axios.get("/admin/list?type=admin_member")
-        .then(res => {
-          this.team = res.data.data
-          this.loading = false
-          // console.log('Success')   
-        })
-        .catch(err => {
-          console.log('Failed')   
-        })     
+        this.loadVolunteers = false   
       })
       .catch(err => {
         console.log('Failed')   
       })
-      
+      axios.get("/users/?condition=admin")
+      .then(res => {
+          this.team = res.data.results
+          this.loadAdmins = false
+          // console.log('Success')   
+      })
+      .catch(err => {
+          console.log('Failed')   
+      })
     },
   components: {
     Flickity

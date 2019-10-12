@@ -1,6 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
+import Soon from "./views/Soon.vue";
 
 Vue.use(Router);
 
@@ -14,6 +15,11 @@ const router = new Router({
       component: Home,
       meta: { title: 'Home'} 
     },
+    {
+      path: "/coming-soon",
+      component: Soon,
+      meta: { title: 'Coming Soon'} 
+    },
     { 
       path: "/about-us",
       meta: {title: 'About Us'},
@@ -25,7 +31,6 @@ const router = new Router({
     { path: "/fitila", component: () => import("./views/Fitila.vue"), meta: {title: 'Fitila'} },
     { path: "/be-a-voice", component: () => import("./views/Pledges.vue"), meta: {title: 'Be A Voice'} },
     { path: "/terms", component: () => import("./views/Terms.vue"), meta: {title: 'Terms of Service'} },
-    { path: "/coming-soon", component: () => import("./views/Soon.vue"), meta: {title: 'Coming Soon'} },
     { path: "/error", component: () => import("./views/404.vue"), meta: {title: 'Page Not Found'} },
     { path: "*", redirect: "/error" },
   ],
@@ -43,7 +48,7 @@ const router = new Router({
 });
 const DEFAULT_TITLE = 'Mental Care Foundation';
 router.afterEach((to, from) => {
-    document.title = `${to.meta.title} || ${DEFAULT_TITLE}`;
+    document.title = `${to.meta.title} | ${DEFAULT_TITLE}`;
 });
 
 export default router;

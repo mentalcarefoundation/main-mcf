@@ -84,12 +84,7 @@ export default {
       this.events = res.data.data
     })
     .catch(err => {
-      // this.$notify({
-      //           group: 'response',
-      //           type: 'error',
-      //           title: 'Error Fetching Events',
-      //           duration: -2
-      //       });   
+      console.log("Failed")  
     })
   }
 }

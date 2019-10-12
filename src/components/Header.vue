@@ -5,12 +5,12 @@
                 <div class="bar bar--sm visible-xs">
                     <div class="container">
                         <div class="row">
-                            <div class="col-xs-3 col-sm-2">
+                            <div class="col-xs-9 col-sm-10 ">
                                 <router-link tag="a" to="/">
                                     <img class="logo" alt="logo" src="../assets/logo.png">
                                 </router-link>
                             </div>
-                            <div class="col-xs-9 col-sm-10 text-right">
+                            <div class="col-xs-3 col-sm-2 text-right">
                                 <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs hidden-sm"> 
                                     <i class="icon icon--sm stack-interface stack-menu"></i> </a>
                             </div>
