@@ -28,7 +28,7 @@ minded students can spearhead activities and discussions that combat stigma.
             <circle-spin class="m-0" v-if="loading"></circle-spin>
             <div v-else class="boxed boxed--lg boxed--border">
               <h4>Find a Club on Campus</h4>
-              <div class="mt-20 mb-10" v-if="clubs.length > 0" >
+              <div class="mt-20 mb-10" v-if="clubs.length >= 0" >
                 <div class="input-group">
                   <select class="form-control">
                     <option label="Choose a campus:"></option>
