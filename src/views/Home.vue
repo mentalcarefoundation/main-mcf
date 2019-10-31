@@ -132,7 +132,7 @@
                       <img alt="Image" v-if="volunteer.image_url == null" src="../assets/static/img/avatar.jpg" class="testimonial__image avatar"/>
                       <img
                         class="testimonial__image avatar"
-                        alt="Image"
+                        alt="Image" v-else
                         :src="volunteer.image_url"
                       />
                     </div>
