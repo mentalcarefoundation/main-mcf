@@ -46,6 +46,7 @@
               </div>
             </div>
           </div>
+          <p v-if="failed"> Failed to load Events. Please refresh</p>
         </div>
       </div>
     </section>
@@ -74,6 +75,7 @@ export default {
   data() {
     return {
       loading: true,
+      failed: false,
       events: []
     }
   },
@@ -84,7 +86,8 @@ export default {
       this.events = res.data.data
     })
     .catch(err => {
-      console.log("Failed")  
+      this.loading = false
+      this.failed = true  
     })
   }
 }

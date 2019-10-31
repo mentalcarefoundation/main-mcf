@@ -92,7 +92,7 @@
                   <i class="icon ion-ios-personadd icon--md color--primary"></i>
                   <div class="feature__body">
                     <p class="lead mt-5">
-                      Connect with a Listener.
+                      Connect with a Member.
                     </p>  
                   </div>
                 </div>

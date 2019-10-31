@@ -11,10 +11,17 @@
         <div class="row">
           <div class="col-sm-6 col-md-5">
             <div>
-              <h3>Description</h3>
-              <p
-                class="lead"
-              >Launching an attractive and scalable website quickly and affordably is important for modern startups — Stack offers massive value without looking 'bargain-bin'.</p>
+              <p class="lead">
+                MCF Campus Clubs promote mental health awareness and education within universities. Our aim is to
+provide an ongoing space for students to have a stigma-free place to discuss mental health and provide a
+bridge between community mental health resources and your school community.<br>
+
+Joining or starting a MCF Campus Club in your school gives you an opportunity to lead mental health
+related projects.
+<br>
+MCF campus clubs are not support groups or therapy groups. They serve as a safe space where like
+minded students can spearhead activities and discussions that combat stigma.
+              </p>
             </div>
           </div>
           <div class="col-sm-6">
@@ -29,6 +36,7 @@
                   </select>
                 </div>
               </div>
+              <p v-if="failed"> Failed to load Campus Clubs. Please refresh</p>
               <a class="btn mt-20 btn--xs btn--primary type--uppercase" href="#">
                 <span class="btn__text">JOIN</span>
               </a>
@@ -51,6 +59,7 @@ export default {
   data() {
     return {
       loading: true,
+      failed: false,
       clubs: []
     }
   },
@@ -63,7 +72,8 @@ export default {
       }, 1000)
     })
     .catch(err => {
-      console.log('Failed')   
+      this.loading = false
+      this.failed = true
     })
   }
 }

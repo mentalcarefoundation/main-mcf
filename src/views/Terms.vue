@@ -154,7 +154,7 @@
                 will apply to any disputes arising out of or relating to these terms or the Services.
                 <br />
                 <br />
-                For more information about how to contact FITILA, please see our header section.
+                For more information about how to contact FITILA, please see our footer.
               </div>
             </article>
           </div>

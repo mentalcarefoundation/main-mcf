@@ -114,6 +114,7 @@
             </div>
           </div>
         </div>
+        <p v-if="failedAdmin"> Failed to load Team Members list. Please refresh</p>
       </div>
     </section>
     <section class="space--xs bg--secondary">
@@ -144,6 +145,7 @@
                 </div>
               </div>
             </flickity>
+            <p v-if="failedVolunteer"> Failed to load Volunteers list. Please refresh</p>
           </div>
         </div>
       </div>
@@ -155,9 +157,9 @@
           <div class="col-sm-8 col-md-6">
             <div class="cta">
               <h2>Help Us Do More</h2>
-              <a class="btn btn--primary type--uppercase" href="#">
+              <router-link tag="a" to="/coming-soon" class="btn btn--primary type--uppercase">
                 <span class="btn__text">Learn How</span>
-              </a>
+                </router-link>
             </div>
           </div>
         </div>
@@ -178,7 +180,9 @@ export default {
         pageDots: true
       },
       loadAdmins: true,
+      failedAdmin: false,
       loadVolunteers: true,
+      failedVolunteer: false,
       team: [],
       volunteers: []
     };
@@ -190,7 +194,8 @@ export default {
         this.loadVolunteers = false   
       })
       .catch(err => {
-        console.log('Failed')   
+        this.loadVolunteers = false
+           this.failedVolunteer = true  
       })
       axios.get("/users/?condition=admin")
       .then(res => {
@@ -199,7 +204,8 @@ export default {
           // console.log('Success')   
       })
       .catch(err => {
-          console.log('Failed')   
+           this.loadAdmins = false
+           this.failedAdmin = true
       })
     },
   components: {

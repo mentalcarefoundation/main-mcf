@@ -44,7 +44,7 @@
               </div>
               <div class="mt-30 text-block type--uppercase">
                 <h4 class="mb-10">Need Resources?</h4>
-                <a class="btn btn--xs btn--primary" href="#">
+                <a class="btn btn--xs btn--primary" href="http://blog.fitila.life">
                   <span class="btn__text">Visit the Blog</span>
                 </a>
               </div>
