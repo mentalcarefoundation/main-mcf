@@ -26,9 +26,9 @@ minded students can spearhead activities and discussions that combat stigma.
           </div>
           <div class="col-sm-6">
             <circle-spin class="m-0" v-if="loading"></circle-spin>
-            <div  v-else class="boxed boxed--lg boxed--border">
+            <div v-else class="boxed boxed--lg boxed--border">
               <h4>Find a Club on Campus</h4>
-              <div class="mt-20 mb-10">
+              <div class="mt-20 mb-10" v-if="clubs.length > 0" >
                 <div class="input-group">
                   <select class="form-control">
                     <option label="Choose a campus:"></option>
@@ -36,7 +36,7 @@ minded students can spearhead activities and discussions that combat stigma.
                   </select>
                 </div>
               </div>
-              <p v-if="failed"> Failed to load Campus Clubs. Please refresh</p>
+              <p v-if="failed" class="mb-0"> Failed to load Campus Clubs. Please refresh</p>
               <a class="btn mt-20 btn--xs btn--primary type--uppercase" href="#">
                 <span class="btn__text">JOIN</span>
               </a>
