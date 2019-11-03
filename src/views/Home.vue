@@ -106,12 +106,11 @@
         <h2 class="text-center type--uppercase">Meet The Team</h2>
         <circle-spin class="m-0" v-if="loadAdmins"></circle-spin>
         <div class="row" v-else>
-          <div class="col-xs-6 col-sm-4 col-lg-3" v-for="(datum, index) in team" :key="datum.id">
+          <div class="col-xs-6 col-sm-4 col-lg-3" v-for="datum in team" :key="datum.id">
             <div class="text-center feature">
-              <img alt="Image" v-if="role[index].image == null" src="../assets/static/img/avatar.jpg" class="avatar"/>
-              <img alt="Image" v-else :src="role[index].image" class="avatar"/>
+              <img alt="Image" v-if="datum.image == null" src="../assets/static/img/avatar.jpg" class="avatar"/>
+              <img alt="Image" v-else :src="datum.image" class="avatar"/>
               <h5>{{datum.firstname}} {{datum.lastname}}</h5>
-              <!-- <span>{{datum.position}}</span> -->
             </div>
           </div>
         </div>
@@ -203,11 +202,8 @@ export default {
       axios.get("/users/?condition=admin")
       .then(res => {
           this.team = res.data.results
-          for(let i=0; i < this.team.length; i++){
-            this.role = this.team[i].roles.filter(el => {return el.name == "admin_member"})
-          }
+          
           this.loadAdmins = false
-          console.log(this.role)   
       })
       .catch(err => {
            this.loadAdmins = false
