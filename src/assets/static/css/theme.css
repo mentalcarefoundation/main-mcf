@@ -7595,7 +7595,7 @@ input[type="image"] {
   -webkit-transition: opacity .3s ease;
 }
 .radial:not(.radial--active) .radial__label {
-  opacity: 0;
+  opacity: 1;
 }
 .radial:not(:last-child) {
   margin-bottom: 1.85714286em;

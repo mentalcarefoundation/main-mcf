@@ -31,6 +31,7 @@ const router = new Router({
     { path: "/fitila", component: () => import("./views/Fitila.vue"), meta: {title: 'Fitila'} },
     { path: "/be-a-voice", component: () => import("./views/Pledges.vue"), meta: {title: 'Be A Voice'} },
     { path: "/terms", component: () => import("./views/Terms.vue"), meta: {title: 'Terms of Service'} },
+    { path: "/donate", component: () => import("./views/Donate.vue"), meta: {title: 'Donate'} },
     { path: "/error", component: () => import("./views/404.vue"), meta: {title: 'Page Not Found'} },
     { path: "*", redirect: "/error" },
   ],

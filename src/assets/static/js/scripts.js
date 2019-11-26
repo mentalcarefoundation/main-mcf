@@ -2260,7 +2260,7 @@ mr = (function (mr, $, window, document){
 		  	$('.radial').each(function(){
 		  		var chart    = jQuery(this),
 		  			value    = 0,
-		  			color    = '#000000',
+		  			color    = '#002200',
 		  			time     = 2000,
 		  			pieSize  = 110,
 		  			barWidth = 3;

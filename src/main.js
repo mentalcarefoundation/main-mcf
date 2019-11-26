@@ -18,6 +18,7 @@ import  './assets/static/css/custom.css';
 import './assets/static/js/jquery-3.1.1.min.js';
 import './assets/static/js/smooth-scroll.min.js';
 import './assets/static/js/scripts.js';
+import './assets/static/js/easypiechart.min.js';
 
 Vue.use(vueSmoothScroll)
 Vue.use(VModal)

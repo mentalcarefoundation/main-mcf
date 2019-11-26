@@ -65,9 +65,12 @@
                     </p>  
                   </div>
                 </div>
-                <router-link class="btn btn--xs btn--primary type--uppercase" to="/coming-soon">
+                <!-- <router-link class="btn btn--xs btn--primary type--uppercase" to="/coming-soon">
                   <span class="btn__text">JOIN NOW</span>
-                </router-link>
+                </router-link> -->
+                <a class="btn btn--xs btn--primary type--uppercase" href="https://fitila123456.netlify.com/">
+                  <span class="btn__text">JOIN NOW</span>
+                </a>
               </div>
               <div class="mt-20 card card-bg boxed">
                 <h4 class="fw-600">VOLUNTEER LISTENER</h4>
@@ -104,9 +107,12 @@
                     </p>  
                   </div>
                 </div>
-                <router-link class="btn btn--xs btn--primary type--uppercase" to="/coming-soon">
+                <!-- <router-link class="btn btn--xs btn--primary type--uppercase" to="/coming-soon">
                   <span class="btn__text">JOIN NOW</span>
-                </router-link>
+                </router-link> -->
+                <a class="btn btn--xs btn--primary type--uppercase" href="https://fitila123456.netlify.com/">
+                  <span class="btn__text">JOIN NOW</span>
+                </a>
               </div>
             </div>
         </div>

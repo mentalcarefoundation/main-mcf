@@ -81,7 +81,7 @@
                                                  JOIN FITILA
                                             </a>
                                         </router-link>
-                                        <router-link tag="li" to="/coming-soon" data-toggle-class="#menu1;hidden-xs hidden-sm">
+                                        <router-link tag="li" to="/donate" data-toggle-class="#menu1;hidden-xs hidden-sm">
                                             <a href="#">
                                                 DONATE
                                             </a>
@@ -89,11 +89,16 @@
                                     </ul>
                                 </div>
                                 <div class="bar__module">
-                                    <router-link tag="a" class="btn btn--xs btn--primary type--uppercase" to="/coming-soon"  data-toggle-class="#menu1;hidden-xs hidden-sm"> 
+                                    <!-- <router-link tag="a" class="btn btn--xs btn--primary type--uppercase" to="/coming-soon"  data-toggle-class="#menu1;hidden-xs hidden-sm"> 
                                     <span class="btn__text">
                                         SIGNUP/LOGIN
                                     </span> 
-                                    </router-link>
+                                    </router-link> -->
+                                    <a href="https://fitila123456.netlify.com/" target="_blank" class="btn btn--xs btn--primary type--uppercase" data-toggle-class="#menu1;hidden-xs hidden-sm"> 
+                                    <span class="btn__text">
+                                        SIGNUP/LOGIN
+                                    </span> 
+                                    </a>
                                 </div>
                             </div>
                         </div>
