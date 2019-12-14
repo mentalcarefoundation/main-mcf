@@ -68,7 +68,7 @@
                 <!-- <router-link class="btn btn--xs btn--primary type--uppercase" to="/coming-soon">
                   <span class="btn__text">JOIN NOW</span>
                 </router-link> -->
-                <a class="btn btn--xs btn--primary type--uppercase" href="https://fitila123456.netlify.com/">
+                <a class="btn btn--xs btn--primary type--uppercase" href="https://fitila123456.netlify.com/signup">
                   <span class="btn__text">JOIN NOW</span>
                 </a>
               </div>
@@ -110,7 +110,7 @@
                 <!-- <router-link class="btn btn--xs btn--primary type--uppercase" to="/coming-soon">
                   <span class="btn__text">JOIN NOW</span>
                 </router-link> -->
-                <a class="btn btn--xs btn--primary type--uppercase" href="https://fitila123456.netlify.com/">
+                <a class="btn btn--xs btn--primary type--uppercase" href="https://fitila123456.netlify.com/signup">
                   <span class="btn__text">JOIN NOW</span>
                 </a>
               </div>

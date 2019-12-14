@@ -158,7 +158,7 @@
           <div class="col-sm-8 col-md-6">
             <div class="cta">
               <h2>Help Us Do More</h2>
-              <router-link tag="a" to="/donate" class="btn btn--primary type--uppercase">
+              <router-link tag="a" to="/coming-soon" class="btn btn--primary type--uppercase">
                 <span class="btn__text">Learn How</span>
                 </router-link>
             </div>
