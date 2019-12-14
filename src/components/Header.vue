@@ -94,7 +94,7 @@
                                         SIGNUP/LOGIN
                                     </span> 
                                     </router-link> -->
-                                    <a href="https://fitila123456.netlify.com/" class="btn btn--xs btn--primary type--uppercase" data-toggle-class="#menu1;hidden-xs hidden-sm"> 
+                                    <a href="https://fitila123456.netlify.com/" class="btn btn--xs btn--primary type--uppercase" > 
                                     <span class="btn__text">
                                         SIGNUP/LOGIN
                                     </span> 
