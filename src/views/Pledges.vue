@@ -25,13 +25,13 @@
               >Dummy text:Launching an attractive and scalable website quickly and affordably is important for modern startups — Stack offers massive value without looking 'bargain-bin'.</p>
               <div class="text-block type--uppercase">
                 <h4 class="mb-10">Take the pledges</h4>
-                <a class="btn btn--xs btn--primary mb-10" href="#">
+                <a class="btn mr-10 btn--xs btn--primary mb-10" href="#">
                   <span class="btn__text">STIGMA PLEDGE</span>
                 </a>
-                <a class="btn ml-10 btn--xs btn--primary mb-10 bg-1" href="#">
+                <a class="btn mr-10 btn--xs btn--primary mb-10 bg-1" href="#">
                   <span class="btn__text">Lorem ipsum</span>
                 </a>
-                <a class="btn ml-10 btn--xs btn--primary mb-10 bg-2" href="#">
+                <a class="btn mr-10 btn--xs btn--primary mb-10 bg-2" href="#">
                   <span class="btn__text">blah blah</span>
                 </a>
               </div>
