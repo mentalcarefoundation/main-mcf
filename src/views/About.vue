@@ -1,9 +1,9 @@
 <template>
   <div class="main-container">
-    <section class="cover imagebg height-60 text-left" data-overlay="3">
+    <!-- <section class="cover imagebg height-60 text-left" data-overlay="3">
       <div class="background-image-holder"></div>
-    </section>
-    <section class="space--xs">
+    </section> -->
+    <section class="bg--secondary space--xs">
       <h1 class="type--uppercase text-center">About Us</h1>
     </section>
 

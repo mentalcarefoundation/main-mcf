@@ -1,16 +1,10 @@
 <template>
   <div class="main-container">
-    <section class="cover imagebg height-40 text-left" data-overlay="7">
+     <!-- <section class="cover imagebg height-60 text-left" data-overlay="3">
       <div class="background-image-holder"></div>
-      <div class="container pos-vertical-center">
-        <div class="row">
-          <div class="col-sm-8">
-            <h1>FITILA Terms and Conditions</h1>
-          </div>
-        </div>
-        <!--end of row-->
-      </div>
-      <!--end of container-->
+    </section> -->
+    <section class="bg--secondary space--xs">
+      <h1 class="type--uppercase text-center">FITILA Terms and Conditions</h1>
     </section>
     <section class="space--xs">
       <div class="boxed boxed--lg boxed--border container">

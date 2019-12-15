@@ -110,7 +110,7 @@
             <div class="text-center feature">
               <img alt="Image" v-if="datum.image == null" src="../assets/static/img/avatar.jpg" class="avatar"/>
               <img alt="Image" v-else :src="datum.image" class="avatar"/>
-              <h5>{{datum.firstname}} {{datum.lastname}}</h5>
+              <h5 class="type--capitalize">{{datum.firstname}} {{datum.lastname}}</h5>
             </div>
           </div>
         </div>
@@ -139,8 +139,8 @@
                       <span class="h4">
                         "{{volunteer.bio}}"
                       </span>
-                      <h5>{{volunteer.name}}</h5>
-                      <span>{{volunteer.position}}</span>
+                      <h5 class="type--capitalize">{{volunteer.name}}</h5>
+                      <span class="type--capitalize">{{volunteer.position}}</span>
                     </div>
                   </div>
                 </div>

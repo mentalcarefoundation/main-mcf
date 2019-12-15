@@ -1,14 +1,12 @@
 <template>
   <div class="main-container">
-    <section class="cover imagebg height-60 text-left" data-overlay="3">
+    <!-- <section class="cover imagebg height-60 text-left" data-overlay="3">
       <div class="background-image-holder"></div>
-    </section>
+    </section> -->
     <section class="bg--secondary space--xs">
       <h1 class="type--uppercase text-center">Awareness Events</h1>
     </section>
-    <section
-      class="bg--secondary switchable feature-large feature-large-13 switchable--switch space--sm"
-    >
+    <section class="switchable feature-large feature-large-13 switchable--switch space--sm">
       <div class="container">
         <div class="row">
           <div class="col-md-offset-1 col-sm-5">
@@ -26,7 +24,7 @@
         </div>
       </div>
     </section>
-    <section class="space--xs">
+    <section class="bg--secondary space--xs">
       <div class="container">
         <h2 class="text-center">Our Events</h2>
         <div class="row">
@@ -35,7 +33,7 @@
             <div class="feature feature-1">
               <img alt="Image" :src="event.image_url" />
               <div class="feature__body boxed boxed--border">
-                <h4>{{event.title}}</h4>
+                <h4 class="type--capitalize">{{event.title}}</h4>
                 <p>{{event.description}}</p>
                 <p>
                   <strong>Date: {{event.date}}</strong>
