@@ -49,7 +49,7 @@
       </div>
     </section>
     <section class="text-center imagebg" data-overlay="7">
-      <div class="background-image-holder"></div>
+      <div class="background-image-holder event-bg"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-8 col-md-6">

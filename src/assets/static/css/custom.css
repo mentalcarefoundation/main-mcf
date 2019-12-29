@@ -254,6 +254,11 @@ a:hover, a:visited, a:focus {
   opacity: 1;
   background-position: 50% 50% !important;
 }
+.event-bg { 
+  background-image:url(https://res.cloudinary.com/mcf/image/upload/v1577639568/mcf%20main/mcf1_mo3x7p.jpg);
+  opacity: 1;
+  background-position: 50% 50% !important;
+}
 .font-s{
   font-size: 200%
 }

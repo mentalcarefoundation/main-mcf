@@ -55,7 +55,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-offset-1 col-sm-5">
-            <img alt="Image" class="border--round" src="https://res.cloudinary.com/mcf/image/upload/v1577640389/mcf%20main/founder_b9onti.jpg" />
+            <img alt="Image" class="border--round" src="https://res.cloudinary.com/mcf/image/upload/v1577639557/mcf%20main/fitila2_mjwihq.jpg" />
           </div>
           <div class="col-sm-6 col-md-6">
             <div>
