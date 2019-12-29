@@ -242,8 +242,17 @@ a:hover, a:visited, a:focus {
     border-radius: 10rem !important;
 }
 .background-image-holder { 
-  background-image:url(../../static/img/education-2.jpg);
+  background-image:url(https://res.cloudinary.com/mcf/image/upload/v1577639573/mcf%20main/mcf2_kj5wq9.jpg);
   opacity: 1;
+}
+.background-image-holder2 { 
+  background-image:url(https://res.cloudinary.com/mcf/image/upload/v1577639563/mcf%20main/fitila1_t8jb0i.jpg);
+  opacity: 1;
+}
+.fitila { 
+  background-image:url(https://res.cloudinary.com/mcf/image/upload/v1577639111/mcf%20main/fitila_xtrmwf.jpg);
+  opacity: 1;
+  background-position: 50% 50% !important;
 }
 .font-s{
   font-size: 200%

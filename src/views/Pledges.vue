@@ -14,7 +14,7 @@
             <img
               alt="Image"
               class="border--round box-shadow-wide"
-              src="../assets/static/img/inner-3.jpg"
+              src="https://res.cloudinary.com/mcf/image/upload/v1577639570/mcf%20main/volunteer_dv9z6s.jpg"
             />
           </div>
           <div class="col-sm-6 col-md-5">

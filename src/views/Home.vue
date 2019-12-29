@@ -25,7 +25,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-4">
-            <img alt="Image" class="border--round" src="../assets/static/img/education-2.jpg" />
+            <img alt="Image" class="border--round" src="https://res.cloudinary.com/mcf/image/upload/v1577639100/mcf%20main/mcf_kezhpv.jpg" />
           </div>
           <div class="col-md-7 col-sm-8">
             <h2>ABOUT US</h2>
@@ -67,7 +67,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-offset-1 col-sm-5">
-            <img alt="Image" class="border--round" src="../assets/static/img/education-2.jpg" />
+            <img alt="Image" class="border--round" src="https://res.cloudinary.com/mcf/image/upload/v1577639111/mcf%20main/fitila_xtrmwf.jpg" />
           </div>
           <div class="col-sm-6 col-md-6">
             <div class="switchable__text">
@@ -152,7 +152,7 @@
       </div>
     </section>
     <section class="text-center imagebg" data-overlay="7">
-      <div class="background-image-holder"></div>
+      <div class="background-image-holder background-image-holder2"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-8 col-md-6">
