@@ -63,13 +63,7 @@
                                                                     <a href="#">
                                                                         Be A Voice
                                                                     </a>
-                                                                </router-link>
-                                                                <li>
-                                                                    <a href="https://screening.mentalhealthamerica.net/screening-tools">
-                                                                        Get Screened
-                                                                    </a>
-                                                                </li>
-                                                                    
+                                                                </router-link>     
                                                                 </ul>
                                                         </div>
                                                     </div>
@@ -86,6 +80,11 @@
                                                 DONATE
                                             </a>
                                         </router-link>
+                                        <li>
+                                                                    <a href="https://screening.mentalhealthamerica.net/screening-tools" target="_blank">
+                                                                        Get Screened
+                                                                    </a>
+                                                                </li>
                                     </ul>
                                 </div>
                                 <div class="bar__module">

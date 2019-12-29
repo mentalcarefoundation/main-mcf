@@ -4,12 +4,14 @@
       <div class="background-image-holder fitila"></div>
       <div class="container pos-vertical-center">
         <div class="row">
+          <div class="col-sm-9">
             <h1 class="type--uppercase">Introducing FITILA</h1>
             <div class="mb-10 typed-headline">
               <span class="h4 inline-block" style="line-height: 2em">
                 Nigeria’s premier on-demand emotional support platform
               </span>
             </div>
+          </div>
         </div>
       </div>
     </section>
