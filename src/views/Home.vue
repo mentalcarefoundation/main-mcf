@@ -110,7 +110,10 @@
             <div class="text-center feature">
               <img alt="Image" v-if="datum.image == null" src="../assets/static/img/avatar.jpg" class="avatar"/>
               <img alt="Image" v-else :src="datum.image" class="avatar"/>
-              <h5 class="type--capitalize">{{datum.firstname}} {{datum.lastname}}</h5>
+              <a :href="datum.link" target="_blank">
+                <h5 class="type--capitalize">{{datum.firstname}} {{datum.lastname}}</h5>
+              </a>
+              <p>{{datum.position}}</p>
             </div>
           </div>
         </div>

@@ -22,7 +22,9 @@
               <h3 class="text--capitalize">Lend Your Voice</h3>
               <p
                 class="lead"
-              >Dummy text:Launching an attractive and scalable website quickly and affordably is important for modern startups — Stack offers massive value without looking 'bargain-bin'.</p>
+              >Lend your voice is MCF’s effort to end suicide and encourage people to pay attention to their mental health
+                while creating hope for those affected by mental illness. Through powerful words and actions, we can shift
+                the social barriers for those living with mental health conditions.</p>
               <div class="text-block type--uppercase">
                 <h4 class="mb-10">Take the pledges</h4>
                 <a class="btn mr-10 btn--xs btn--primary mb-10" href="#">

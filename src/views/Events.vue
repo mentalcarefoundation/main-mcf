@@ -36,9 +36,9 @@
                 <h4 class="type--capitalize">{{event.title}}</h4>
                 <p>{{event.description}}</p>
                 <p>
-                  <strong>Date: {{event.date}}</strong>
+                  <strong>Date: {{convertDate(event.date)}}</strong>
                 </p>
-                <a class="mt-10 btn btn--xs btn--primary type--uppercase" href="#">
+                <a class="mt-10 btn btn--xs btn--primary type--uppercase" :href="event.title" target="_blank">
                   <span class="btn__text">Register</span>
                 </a>
               </div>
@@ -55,7 +55,7 @@
           <div class="col-sm-8 col-md-6">
             <div class="cta">
               <h2>Want to organize an event?</h2>
-              <a class="btn btn--primary type--uppercase" href="#">
+              <a class="btn btn--primary type--uppercase" href="https://bit.ly/2SM2aGD" target="_blank">
                 <span class="btn__text">Create one</span>
               </a>
             </div>
@@ -76,6 +76,13 @@ export default {
       failed: false,
       events: []
     }
+  },
+  methods: {
+    convertDate(payload) {
+        let adate = new Date(payload)
+        let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        return this.date = adate.toLocaleDateString('en-US', options)
+      },
   },
   mounted() {
     axios.get('/admin/list?type=event')

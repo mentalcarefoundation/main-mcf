@@ -74,7 +74,7 @@
                 you acknowledge that we do not represent to verify, and do not guarantee the verification of, the skills, degrees, qualifications, licensure, certification, credentials,
                 competence.
                 <h3 class="mt-10 mb-10 text-uppercase">Our Warranties and Disclaimers</h3>
-                <br />We provide our Services using a reasonable level of care and skill and we hope that you enjoy using them. There are certain
+                We provide our Services using a reasonable level of care and skill and we hope that you enjoy using them. There are certain
                 things that we do not promise about our Services.
                 <br />
                 <br />
