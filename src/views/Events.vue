@@ -38,7 +38,7 @@
                 <p>
                   <strong>Date: {{convertDate(event.date)}}</strong>
                 </p>
-                <a class="mt-10 btn btn--xs btn--primary type--uppercase" :href="event.title" target="_blank">
+                <a class="mt-10 btn btn--xs btn--primary type--uppercase" :href="event.event_link" target="_blank">
                   <span class="btn__text">Register</span>
                 </a>
               </div>

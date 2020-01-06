@@ -27,15 +27,15 @@
                 the social barriers for those living with mental health conditions.</p>
               <div class="text-block type--uppercase">
                 <h4 class="mb-10">Take the pledges</h4>
-                <a class="btn mr-10 btn--xs btn--primary mb-10" href="#">
-                  <span class="btn__text">STIGMA PLEDGE</span>
+                <a class="btn mr-10 btn--xs btn--primary mb-10" href="http://bit.ly/mcfdp2">
+                  <span class="btn__text">SUICIDE-FREE PLEDGE</span>
                 </a>
-                <a class="btn mr-10 btn--xs btn--primary mb-10 bg-1" href="#">
-                  <span class="btn__text">Lorem ipsum</span>
+                <a class="btn mr-10 btn--xs btn--primary mb-10 bg-1" href="http://bit.ly/mcfdp1">
+                  <span class="btn__text">MENTALLY STRONG PLEDGE</span>
                 </a>
-                <a class="btn mr-10 btn--xs btn--primary mb-10 bg-2" href="#">
+                <!-- <a class="btn mr-10 btn--xs btn--primary mb-10 bg-2" href="#">
                   <span class="btn__text">blah blah</span>
-                </a>
+                </a> -->
               </div>
               <div class="mt-20 modal-instance">
                 <h4 class="mb-10 type--uppercase">How well do you know Mental Health?</h4>
