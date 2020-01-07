@@ -202,7 +202,7 @@ export default {
         this.loadVolunteers = false
            this.failedVolunteer = true  
       })
-      axios.get("/users/?condition=admin")
+      axios.get("/users/all/admin")
       .then(res => {
           this.team = res.data.results
           
