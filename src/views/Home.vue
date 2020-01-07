@@ -205,7 +205,6 @@ export default {
       axios.get("/users/all/admin")
       .then(res => {
           this.team = res.data.results
-          
           this.loadAdmins = false
       })
       .catch(err => {
