@@ -216,7 +216,24 @@ margin: 0 -20px;
   margin-left: 30px !important;
   list-style-type: disc;
 }
-
+.team-img{
+  height: 25vh
+}
+.circle-bg1 {
+  padding: 20%;
+  border: 2px solid #e463a3;
+  background-color: #e463a3;
+  border-radius: 50%;
+}
+.circle-bg1 h4, .circle-bg2 h4,.circle-bg1 p, .circle-bg2 p {
+  color: white;
+}
+.circle-bg2 {
+  padding: 10%;
+  border: 2px solid #6998d4;
+  background-color: #6998d4;
+  border-radius: 50%;
+}
 a, a:hover, a:visited, a:focus {
   text-decoration: none !important;
 }
@@ -237,6 +254,12 @@ a:hover, a:visited, a:focus {
 .bar .logo {
     max-height: 3em !important;
     max-width: none;
+}
+@media all and (max-width: 374px) {
+  .bar .logo {
+    max-height: 2.5em !important;
+    max-width: none;
+}
 }
 .btn {
     border-radius: 10rem !important;
@@ -268,12 +291,17 @@ a:hover, a:visited, a:focus {
   text-align: center;
   border-radius: 100%;
 }
-@media (min-width: 768px) {
+@media all and (max-width:767px) {
+  .h4{
+    font-size: 1.1em;
+  }
+}
+@media all and (min-width: 768px) {
   .topbar-center {
     width: 35%
   }
 }
-@media (min-width: 426px) and (max-width:767px) {
+@media all and (min-width: 426px) and (max-width:767px) {
   .topbar-center {
     width: 50%
   }

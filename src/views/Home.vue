@@ -73,7 +73,7 @@
             <div class="switchable__text">
               <h2>OUR SOLUTIONS</h2>
               <p class="lead mb-0">
-                <span class="type--capitalize">We are intrepidly putting a Stop to The Stigma.</span><br>
+                <span>We are intrepidly putting a stop to the stigma.</span><br>
                 At Mental Care Foundation, we hold the opinion that everyone has a role to play to change the narrative of
                 mental health in Nigeria. Together we can help each other emotionally, we can stop the stigma and be the
                 most powerful instrument of change.
@@ -108,8 +108,8 @@
         <div class="row" v-else>
           <div class="col-xs-6 col-sm-4 col-lg-3" v-for="datum in team" :key="datum.id">
             <div class="text-center feature">
-              <img alt="Image" v-if="datum.image == null" src="../assets/static/img/avatar.jpg" class="avatar"/>
-              <img alt="Image" v-else :src="datum.image" class="avatar"/>
+              <img alt="Image" v-if="datum.image == null" src="../assets/static/img/avatar.jpg" class="avatar team-img"/>
+              <img alt="Image" v-else :src="datum.image" class="avatar team-img"/>
               <a :href="datum.link" target="_blank">
                 <h5 class="type--capitalize">{{datum.firstname}} {{datum.lastname}}</h5>
               </a>
