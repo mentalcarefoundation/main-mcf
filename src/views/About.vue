@@ -112,7 +112,7 @@
             <div class="feature feature--featured feature-5 boxed boxed--lg boxed--border">
               <i class="icon ion-ios-bookmarks-outline icon--lg"></i>
               <div class="feature__body">
-                <h5 class="type--uppercase">Our Mision</h5>
+                <h5 class="type--uppercase">Our Mission</h5>
                 <p>
                   Transform the understanding of mental illness through awareness programs and technology-centered
                   solutions that pave way for prevention, recovery and a safe space for all.

@@ -39,18 +39,22 @@
               <div class="col-sm-6">
                 <h4>Find a Club on Campus</h4>
                 <p v-if="failed" class="mb-0"> Failed to load Campus Clubs. Please refresh</p>
-                <div class="mt-20 mb-10" v-if="clubs.length >= 0" >
+                <div class="mt-20 mb-10" v-if="clubs.length > 0" >
                   <div class="input-group">
                     <select v-model="selected">
                       <option label="Choose a campus:"></option>
                       <option  v-for="(club, index) in clubs" :key="index" :value="club.email">{{club.school}}</option>
                     </select>
                   </div>
+                  <a class="btn mt-20 btn--xs btn--primary type--uppercase" :href="selected" target="_blank">
+                    <span class="btn__text">JOIN</span>
+                  </a>
                 </div>
-                
-                <a class="btn mt-20 btn--xs btn--primary type--uppercase" :href="selected" target="_blank">
-                  <span class="btn__text">JOIN</span>
-                </a>
+                <div class="mt-20 mb-10" v-else >
+                  <div class="input-group">
+                    No Campus Clubs yet. You can start one for your school.
+                  </div>
+                </div>
               </div>
               <div class="col-sm-6">
                 <h4>No Club in your School?</h4>

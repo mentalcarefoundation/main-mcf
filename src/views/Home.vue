@@ -35,7 +35,7 @@
                 <div class="col-sm-6">
                   <div class="feature feature-6 mb-0">
                     <i class="icon ion-ios-bookmarks-outline color--primary"></i>
-                    <h5 class="mt-10 type--uppercase">Our Mision</h5>
+                    <h5 class="mt-10 type--uppercase">Our Mission</h5>
                     <p>
                       Transform the understanding of mental illness through awareness programs and technology-centered
                       solutions that pave way for prevention, recovery and a safe space for all.

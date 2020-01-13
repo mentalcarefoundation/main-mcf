@@ -97,12 +97,13 @@
                 <br />
                 <strong>
                   IN ALL CASES, FITILA AND ITS AFFILIATES, OFFICERS, DIRECTORS, SHAREHOLDERS, EMPLOYEES, SUB-CONTRACTORS,
-                  REPRESENTATIVES, AND AGENTS, WILL NOT BE LIABLE FOR ANY LOSS OR DAMAGE THAT IS NOT REASONABLY FORSEEABLE. Business
-                  Uses of Our Services If you are using our Services on behalf of a business or organization, that business or organization accepts these terms. It will
+                  REPRESENTATIVES, AND AGENTS, WILL NOT BE LIABLE FOR ANY LOSS OR DAMAGE THAT IS NOT REASONABLY FORSEEABLE. 
+                </strong>
+                <h3 class="mt-10 mb-10 text-uppercase">Business Uses of Our Services</h3>
+                  If you are using our Services on behalf of a business or organization, that business or organization accepts these terms. It will
                   hold harmless and indemnify FITILA and its affiliates, officers, directors, shareholders, employees, sub-contractors, representatives, and agents from
                   any claim, suit or action arising from or related to the use of the Services or violation of these terms, including any liability or expense arising from
                   claims, losses, damages, suits, judgements, litigation costs, and attorneys’ fees.
-                </strong>
                 <h3 class="mt-10 mb-10 text-uppercase">About Software in Our Services</h3>
                 Our Services may include downloadable software, which may update automatically on your device once a
                 new version or feature is available. Some Services may let you adjust your automatic update settings.
