@@ -28,7 +28,7 @@
                     </div>
                         <!--end of row-->
                     <div class="row">
-                        <div class="col-sm-12"> <span class="type--fine-print bar__module">©2019 Mental Care Foundation— All Rights Reserved</span>
+                        <div class="col-sm-12"> <span class="type--fine-print bar__module">Copyright © 2020 Mental Care Foundation. All rights reserved.</span>
                         </div>
                     </div>
                 </div>

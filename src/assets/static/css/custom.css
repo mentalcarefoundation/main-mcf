@@ -133,6 +133,9 @@ h6,
 .mb-10{
     margin-bottom: 10px !important
 }
+.mb-20 {
+  margin-bottom: 20px;
+}
 .mb-0{
     margin-bottom: 0 !important
 }
@@ -153,6 +156,9 @@ h6,
 }
 .mr-10{
   margin-right: 10px !important
+}
+.pb-0 {
+  padding-bottom: 0 !important;
 }
 .pd-10 {
   padding: 10px;
@@ -199,6 +205,12 @@ h6,
 .custom-color {
   color: #7cb2f8 !important;
 }
+.color-1 {
+  color: #e463a3 !important;
+}
+.bg-white {
+  background-color: white;
+}
 .callout{
   padding: 15px 20px;
   border-left: 3px solid transparent;
@@ -219,20 +231,25 @@ margin: 0 -20px;
 .team-img{
   height: 25vh
 }
-.circle-bg1 {
-  padding: 20%;
-  border: 2px solid #e463a3;
-  background-color: #e463a3;
+.donate-bg1 {
+  background-color: #f5d1e3 !important;
+  padding: 5vh;
   border-radius: 50%;
 }
-.circle-bg1 h4, .circle-bg2 h4,.circle-bg1 p, .circle-bg2 p {
+/* .donate-bg1 h4, .donate-bg2 h4,.donate-bg1 p, .donate-bg2 p {
   color: white;
-}
-.circle-bg2 {
-  padding: 10%;
-  border: 2px solid #6998d4;
-  background-color: #6998d4;
+} */
+.donate-bg2 {
+  background-color: #e6f0fd !important;
+  padding: 5vh;
   border-radius: 50%;
+}
+.fs-donate {
+  font-size: 2em;
+}
+.flex-donate {
+  display: flex;
+  justify-content: space-between;
 }
 a, a:hover, a:visited, a:focus {
   text-decoration: none !important;

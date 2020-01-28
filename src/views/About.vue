@@ -65,7 +65,7 @@
                 health - from just being curious about mental health to becoming an advocate.
               </p>
               <span>
-                <strong class="custom-color">– Akinjobi Balikis</strong>, Co-founder and Executive
+                <strong>– Akinjobi Balikis</strong>, Co-founder and Executive
                 Director, MCF
               </span>
               <ul  class="ml-ul mb-10 mt-10 lead">
