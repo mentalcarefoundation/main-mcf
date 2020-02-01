@@ -88,16 +88,16 @@
                                     </ul>
                                 </div>
                                 <div class="bar__module">
-                                    <!-- <router-link tag="a" class="btn btn--xs btn--primary type--uppercase" to="/coming-soon"  data-toggle-class="#menu1;hidden-xs hidden-sm"> 
+                                    <router-link tag="a" class="btn btn--xs btn--primary type--uppercase" to="/coming-soon"  data-toggle-class="#menu1;hidden-xs hidden-sm"> 
                                     <span class="btn__text">
                                         SIGNUP/LOGIN
                                     </span> 
-                                    </router-link> -->
-                                    <a href="https://fitila.mentalcare.life" class="btn btn--xs btn--primary type--uppercase" > 
+                                    </router-link>
+                                    <!-- <a href="https://fitila.mentalcare.life" class="btn btn--xs btn--primary type--uppercase" > 
                                     <span class="btn__text">
                                         SIGNUP/LOGIN
                                     </span> 
-                                    </a>
+                                    </a> -->
                                 </div>
                             </div>
                         </div>
