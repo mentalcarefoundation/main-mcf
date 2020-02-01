@@ -251,6 +251,9 @@ margin: 0 -20px;
   display: flex;
   justify-content: space-between;
 }
+.text-underline, .text-underline:hover, .text-underline:visited {
+  text-decoration: underline !important;
+}
 a, a:hover, a:visited, a:focus {
   text-decoration: none !important;
 }

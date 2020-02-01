@@ -110,10 +110,13 @@
             <div class="text-center feature">
               <img alt="Image" v-if="datum.image == null" src="../assets/static/img/avatar.jpg" class="avatar team-img"/>
               <img alt="Image" v-else :src="datum.image" class="avatar team-img"/>
-              <a :href="datum.link" target="_blank">
-                <h5 class="type--capitalize">{{datum.firstname}} {{datum.lastname}}</h5>
-              </a>
-              <p>{{datum.position}}</p>
+                <h4 class="type--capitalize">
+                  <strong>{{datum.firstname}} {{datum.lastname}}</strong>
+                </h4>
+                <p class="mb-0">{{datum.position}}</p>
+                <a class="lead text-underline" :href="datum.link" target="_blank">
+                  Bio
+                </a>
             </div>
           </div>
         </div>
