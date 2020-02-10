@@ -31,7 +31,7 @@
           <circle-spin class="m-0" v-if="loading"></circle-spin>
           <div class="col-sm-4" v-else v-for="(event, index) in events" :key="index">
             <div class="feature feature-1">
-              <div class="text-center">
+              <div class="bg-white text-center">
                 <img alt="Event Image" v-if="event.image_url == null" src="https://imgplaceholder.com/500x500/ffffff/7cb2f8/glyphicon-picture" />
                 <img alt="Image" v-else :src="event.image_url" />
               </div>
