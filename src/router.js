@@ -1,7 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
-import Soon from "./views/Soon.vue";
+// import Soon from "./views/Soon.vue";
 
 Vue.use(Router);
 
@@ -15,17 +15,12 @@ const router = new Router({
       component: Home,
       meta: { title: 'Home'} 
     },
-    {
-      path: "/coming-soon",
-      component: Soon,
-      meta: { title: 'Coming Soon'} 
-    },
-    { 
-      path: "/about-us",
-      meta: {title: 'About Us'},
-      // name: "about",
-      component: () => import("./views/About.vue"),
-    },
+    // {
+    //   path: "/coming-soon",
+    //   component: Soon,
+    //   meta: { title: 'Coming Soon'} 
+    // },
+    { path: "/about-us", component: () => import("./views/About.vue"), meta: {title: 'About Us'} },
     { path: "/campus-clubs", component: () => import("./views/Clubs.vue"), meta: {title: 'Campus Clubs'} }, 
     { path: "/events", component: () => import("./views/Events.vue"), meta: {title: 'Events'} },
     { path: "/fitila", component: () => import("./views/Fitila.vue"), meta: {title: 'Fitila'} },
