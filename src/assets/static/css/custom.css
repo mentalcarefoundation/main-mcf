@@ -231,6 +231,9 @@ margin: 0 -20px;
 .team-img{
   height: 25vh
 }
+.event-img {
+  height: 250px;
+}
 .donate-bg1 {
   background-color: #f5d1e3 !important;
   padding: 5vh;

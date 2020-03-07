@@ -33,9 +33,6 @@
                 <a class="btn mr-10 btn--xs btn--primary mb-10 bg-1" href="http://bit.ly/mcfdp1">
                   <span class="btn__text">MENTALLY STRONG PLEDGE</span>
                 </a>
-                <!-- <a class="btn mr-10 btn--xs btn--primary mb-10 bg-2" href="#">
-                  <span class="btn__text">blah blah</span>
-                </a> -->
               </div>
               <div class="mt-20 modal-instance">
                 <h4 class="mb-10 type--uppercase">How well do you know Mental Health?</h4>

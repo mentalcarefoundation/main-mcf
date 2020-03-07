@@ -62,16 +62,6 @@
                 <p>Mental health questions answered</p>
             </div>
           </div>
-          <!-- <div class="col-md-4">
-            <div class="boxed boxed--border donate-bg1">
-              <div class=" mb-10 feature feature-2">
-                <div class="flex-donate">
-                  <div class="fs-donate">100+</div>
-                  <h4>Young people supported through MCF campus clubs</h4>
-                </div>
-              </div>
-            </div>
-          </div> -->
         </div>
       </div>
     </section>
@@ -86,7 +76,7 @@
               safe haven for all.
             </p>
             <div class="cta">
-              <a class="btn btn--primary type--uppercase" href="#">
+              <a class="btn btn--primary type--uppercase" href="https://forms.gle/yobYeHp92JXn7xJz5">
                 <span class="btn__text">Donate Now</span>
               </a>
             </div>
@@ -97,5 +87,3 @@
   </div>
 </template>
 
-<script>
-</script>
