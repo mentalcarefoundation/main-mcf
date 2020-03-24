@@ -19,7 +19,7 @@
           </div>
           <div class="col-sm-6 col-md-5">
             <div>
-              <h3 class="text--capitalize">Lend Your Voice</h3>
+              <h4 class="type--uppercase">Lend Your Voice</h4>
               <p
                 class="lead"
               >Lend your voice is MCF’s effort to end suicide and encourage people to pay attention to their mental health

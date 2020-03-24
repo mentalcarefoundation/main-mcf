@@ -45,7 +45,7 @@
             <div class="feature feature-6 text-center  mb-10">
               <i class="icon icon--lg ion-ios-copy-outline color-1"></i>
                 <h3 class="mb-10">2000+</h3>
-                <p>Suicide-free pledges</p>
+                <p>Mentally Strong pledges</p>
             </div>
           </div>
           <div class="col-xs-6 col-sm-4 col-md-3  ">
