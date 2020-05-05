@@ -7,7 +7,7 @@
                                     Email: <a href="mailto:hello@mentalcare.life" class="color--white">hello@mentalcare.life</a>
                                 </div>
                                 <div class="bar__module">
-                                        Phone: +2349090009682
+                                        Phone: 07016635363, 08153753924
                                 </div>
                             </div>
                             
