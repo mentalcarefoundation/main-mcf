@@ -108,8 +108,10 @@
         <div class="row" v-else>
           <div class="col-xs-6 col-sm-4 col-lg-3" v-for="datum in team" :key="datum.id">
             <div class="text-center feature">
-              <img alt="Image" v-if="datum.image == null" src="../assets/static/img/avatar.jpg" class="avatar team-img"/>
-              <img alt="Image" v-else :src="datum.image" class="avatar team-img"/>
+              <div class="team-img">
+                <img alt="Image" v-if="datum.image == null" src="../assets/static/img/avatar.jpg" class="avatar"/>
+                <img alt="Image" v-else :src="datum.image" class="avatar"/>
+              </div>
                 <h4 class="type--capitalize">
                   <strong>{{datum.firstname}} {{datum.lastname}}</strong>
                 </h4>
